@@ -1,0 +1,63 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+body {
+  background-color: #161c29;
+}
+header {
+  background-color: rgb(29, 41, 63);
+  padding: 7px;
+  color: rgba(175, 2, 2, 0.918);
+  box-shadow: 7px 7px 10px rgba(36, 5, 5, 0.432);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+.bloco {
+  background-color: rgb(33, 40, 53);
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(100, 1, 1, 0.199);
+}
+.bloco-video {
+  background-color: rgb(33, 40, 53);
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(100, 1, 1, 0.199);
+}
+.bloco-video figcaption {
+  padding-left: 10px;
+}
+.bloco-video iframe {
+  background-color: rgb(33, 40, 53);
+  padding: 10px;
+  color: white;
+}
+.bloco-video h2 {
+  text-align: center;
+  background-color: rgb(47, 62, 90);
+  border-radius: 10px 10px 0px 0px;
+  color: rgba(240, 3, 3, 0.808);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.bloco-img {
+  background-color: rgb(33, 40, 53);
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  width: 363px;
+  box-shadow: 5px 5px 10px rgba(100, 1, 1, 0.199);
+}
+
+figcaption {
+  padding-left: 5px;
+  text-align: left;
+  color: rgba(206, 190, 190, 0.514);
+}
